@@ -72,9 +72,9 @@ h2 {
 
 /* Games Section */
 
-#new-games-section .card,
-#fav-games-section .card {
-    border-style: none;
+#new-games .card,
+#fav-games .card {
+    border: none;
 }
 
 
