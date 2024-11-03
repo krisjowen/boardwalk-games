@@ -32,6 +32,7 @@ h2 {
 h2 {
     margin-bottom: 2rem;
 }
+
 .sub-heading-color {
     color: var(--highlight-color);
     }
@@ -69,8 +70,6 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-#header 
-
 /* grid visualisation for CSS testing */
 
 /* .container,
@@ -82,3 +81,37 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768 pixels and up) */
+@media screen and (min-width: 768px) {
+    /* Make all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Large devices (small laptops, 992 pixels and up) */
+@media screen and (min-width: 992px) {
+    /* Make all services cards the same height for consistency */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* Large devices (large desktops, 1200 pixels and up) */
+@media screen and (min-width: 1200px) {
+    /* Make all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* Large devices (larger desktops, 1400 pixels and up) */
+@media screen and (min-width: 1400px) {
+    /* Make all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 195px;
+    }
+}
