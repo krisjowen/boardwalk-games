@@ -95,6 +95,13 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#discount-banner {
+    color: white;
+    background-color: var(--highlight-color);
+}
+
 /* Games Section */
 
 #new-games .card,
