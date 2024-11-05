@@ -196,12 +196,12 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img src="assets/images/fav-games-2.webp" class="card-img-top"
-                            alt="Monopoly board game">
+                        <img src="assets/images/fav-games-2.webp" class="card-img-top" alt="Monopoly board game">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Monopoly</h3>
                             <p class="card-text">
-                                Featuring classic Monopoly gameplay, this favourite family board game is all about buying, selling, and trading properties to win.
+                                Featuring classic Monopoly gameplay, this favourite family board game is all about
+                                buying, selling, and trading properties to win.
                             </p>
                             <p><em>Number of players:</em> 2-6</p>
                             <p><em>Ages:</em> 8+</p>
@@ -215,7 +215,8 @@
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Exploding Kittens</h3>
                             <p class="card-text">
-                                Exploding Kittens is a kitty-powered version of Russian Roulette. Players take turns drawing cards until someone draws an exploding kitten card and loses the game!
+                                Exploding Kittens is a kitty-powered version of Russian Roulette. Players take turns
+                                drawing cards until someone draws an exploding kitten card and loses the game!
                             </p>
                             <p><em>Number of players:</em> 2-5</p>
                             <p><em>Ages:</em> 7+</p>
@@ -224,12 +225,13 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img src="assets/images/fav-games-4.webp" class="card-img-top"
-                            alt="Cluedo board game">
+                        <img src="assets/images/fav-games-4.webp" class="card-img-top" alt="Cluedo board game">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Cluedo</h3>
                             <p class="card-text">
-                                The classic game of mystery and suspense. Cluedo has 6 suspects, 6 weapons and also a whole maze of possible murder scenes to explore. It's up to you to question the suspects and crack the case.
+                                The classic game of mystery and suspense. Cluedo has 6 suspects, 6 weapons and also a
+                                whole maze of possible murder scenes to explore. It's up to you to question the suspects
+                                and crack the case.
                             </p>
                             <p><em>Number of players:</em> 2-6</p>
                             <p><em>Ages:</em> 8+</p>
@@ -238,6 +240,61 @@
                 </div>
             </div>
         </section>
+
+        <!-- Game reservation section -->
+
+        <section id="booking-form" class="container section"></section>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="display-6">Reserve a game</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
+                        adventure begin! Fill out your details and preferred game below, and we'll have it set aside for
+                        you
+                        when you arrive.</p>
+                </div>
+                <div class="col-8">
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                        </div>
+                            <div class="col-12 col-lg-8 mb-3">
+                                <label for="event-type" class="form-label">Select Game</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select game</option>
+                                    <option value="regular-play">Galaxy Pioneers</option>
+                                    <option value="dnd">Mystic Woods</option>
+                                    <option value="retro-night">Captain's Gambit</option>
+                                    <option value="tournament">Critter Quest</option>
+                                    <option value="kids-party">Settlers of Catan</option>
+                                    <option value="kids-party">Monopoly</option>
+                                    <option value="kids-party">Exploding Kittens</option>
+                                    <option value="kids-party">Cluedo</option>
+                                </select>
+                                <div class="col-12 col-lg-4 mb-3">
+                                    <label for="date" class="form-label">Requested Date</label>
+                                    <input class="form-control" id="date" name="date" type="date" required>
+                                </div>
+                            </div>
+
+                        <button type="submit" class="btn custom-button-outline">Submit</button>
+                    </form>
+                </div>
+            </div>
+            </section>
     </main>
 
     <!-- Footer/contact section -->
@@ -276,35 +333,35 @@
                     <h3 class="sub-heading-color">Opening Times</h3>
                     <table class="table table-dark">
                         <thead>
-                          <tr>
-                            <th scope="col">Day</th>
-                            <th scope="col">Open</th>
-                            <th scope="col">Close</th>
-                          </tr>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Open</th>
+                                <th scope="col">Close</th>
+                            </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <th scope="row">Mon</th>
-                            <td>Closed</td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Tue - Thur</th>
-                            <td>11am</td>
-                            <td>11pn</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Fri - Sat</th>
-                            <td>11am</td>
-                            <td>12am</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Sun</th>
-                            <td>12pm</td>
-                            <td>7pm</td>
-                          </tr>
+                            <tr>
+                                <th scope="row">Mon</th>
+                                <td>Closed</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tue - Thur</th>
+                                <td>11am</td>
+                                <td>11pn</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fri - Sat</th>
+                                <td>11am</td>
+                                <td>12am</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sun</th>
+                                <td>12pm</td>
+                                <td>7pm</td>
+                            </tr>
                         </tbody>
-                      </table>
+                    </table>
                 </div>
             </div>
         </div>
