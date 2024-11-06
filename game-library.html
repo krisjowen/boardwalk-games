@@ -243,19 +243,15 @@
 
         <!-- Game reservation section -->
 
-        <section id="booking-form" class="container section"></section>
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="display-6">Reserve a game</h2>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
+        <section id="reserve-game-form" class="section container mb-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <h2 class="display-6 text-center">Reserve a game</h2>
                     <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
                         adventure begin! Fill out your details and preferred game below, and we'll have it set aside for
                         you
                         when you arrive.</p>
-                </div>
-                <div class="col-8">
+
                     <form action="success.html" method="GET">
                         <div class="row">
                             <div class="col-12 col-lg-4 mb-3">
@@ -270,27 +266,27 @@
                                 <label for="email" class="form-label">Email address</label>
                                 <input class="form-control" id="email" name="email" type="email" required>
                             </div>
-                            <div class="col-12 col-lg-8 mb-4">
-                                <label for="event-type" class="form-label">Select Game</label>
-                                <select id="event-type" class="form-select" name="event-type" required>
+                            <div class="col-12 col-lg-8 mb-3">
+                                <label for="game-selection" class="form-label">Select Game</label>
+                                <select id="game-selection" class="form-select" name="game-selection" required>
                                     <option value="" selected>Select game</option>
-                                    <option value="regular-play">Galaxy Pioneers</option>
-                                    <option value="dnd">Mystic Woods</option>
-                                    <option value="retro-night">Captain's Gambit</option>
-                                    <option value="tournament">Critter Quest</option>
-                                    <option value="kids-party">Settlers of Catan</option>
-                                    <option value="kids-party">Monopoly</option>
-                                    <option value="kids-party">Exploding Kittens</option>
-                                    <option value="kids-party">Cluedo</option>
+                                    <option value="galaxy-pioneers">Galaxy Pioneers</option>
+                                    <option value="mystic-woods">Mystic Woods</option>
+                                    <option value="captains-gambit">Captain's Gambit</option>
+                                    <option value="critter-quest">Critter Quest</option>
+                                    <option value="settlers-of-catan">Settlers of Catan</option>
+                                    <option value="monopoly">Monopoly</option>
+                                    <option value="exploding-kittens">Exploding Kittens</option>
+                                    <option value="cluedo">Cluedo</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-lg-4 mb-4">
+                            <div class="col-12 col-lg-4 mb-3">
                                 <label for="date" class="form-label">Requested Date</label>
                                 <input class="form-control" id="date" name="date" type="date" required>
                             </div>
+                        <div class="col-12 text-end">
+                        <button type="submit" class="btn custom-button-outline mt-3">Submit</button>
                         </div>
-                        <div class="d-flex align-items-center justify-content-end text-center">
-                        <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
                         </div>
                     </form>
                 </div>

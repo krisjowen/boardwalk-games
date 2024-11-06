@@ -97,13 +97,23 @@ h2 {
 
 /* Events */
 
-#discount-banner {
+#events .table {
+    /* events table font size small enough that 
+      the table doesn't overflow on xs screens. 
+      Size set back to 1rem in a media query 
+      for sm screens and up */
+    font-size: 0.7rem;
+}
+
+.student-discount {
     color: white;
     background-color: var(--highlight-color);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    display: block;
+    padding: 5px 10px;
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin: auto;
+    max-width: 300px;
+    font-weight: 0.8rem;
 }
 
 /* Games Section */
